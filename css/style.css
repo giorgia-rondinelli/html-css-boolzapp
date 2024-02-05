@@ -144,18 +144,6 @@ i{
 
 }
 
-.open-chat{
-  height: 80%;
-  background-color: antiquewhite;
-
-}
-
-
-.text{
-  height:11% ;
-  background-color: aqua;
-
-}
 .users{
   height: 80px;
  
@@ -190,6 +178,78 @@ right: 0;
   background-color: #dadbd4b6;
 }
 
+.open-chat{
+  height: 80%;
+  background-image:url(/img/mine.jpg);
+  justify-content: center;
+  overflow: scroll;
+
+}
+.container-chat{
+  width: 80%;
+  flex-direction: column;
+
+}
+
+
+
+
+.sent{
+  align-self: end;
+  background-color:rgb(213,249,186) ;
+}
+.sent, .received{
+  width: 55%;
+  padding: 30px 20px  ;
+  border-radius: 20px;
+  margin: 10px ;
+  font-weight: 700;
+}
+.received{
+ 
+ background-color: white;
+}
+
+.time-open{
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: .7em;
+  color:var(--grigio);
+
+}
+.chev{
+  position:absolute;
+  top: 4px;
+  right: 4px;
+  font-size: .7em;
+
+
+}
+
+.text{
+  height:11% ;
+  background-color: rgb(243,238,234);
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+
+}
+.write{
+  width: 80%;
+  background-color: white;
+  padding:20px
+}
+.write input{
+border: none;
+
+}
+.add{
+  width: 5%;
+  text-align: center;
+  font-size: 1.5em;
+}
 
 @media screen and (max-width: 992px){
   
