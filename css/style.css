@@ -4,8 +4,12 @@
   box-sizing:border-box ;
 }
 
+:root{
+  --grigio: rgb(177,177,177);
+}
+
 .d-flex{
-  display: flex;
+  display:flex;
 }
 
 body{
@@ -13,15 +17,19 @@ background-image: linear-gradient(#009688 10%,#dadbd4 0%);
 height:100vh;
 display: flex;
 justify-content: center;
-align-items: center;
+font-family: 'Lato', sans-serif;
 }
 
 
+
+
+
 .container{
-  width: 100%;
+  width: 1300px;
   height:95%;
   margin:10px 0 ;
   background-color: brown;
+  
   
 }
 .col-chat{
@@ -32,19 +40,70 @@ align-items: center;
 .col-convs{
   width: 70%;
 }
+.profile-pictures{
+  width: 50px;
+  height: 50px;
+}
+ img{
+  width: 100%;
+  border-radius: 50%;
+}
+.main-user,.michele{
+  height: 70px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  padding: 5px 10px;
+  background-color: rgb(234,234,234);
+  align-items: center;
+}
+.main-user{
+  justify-content: space-between;
+  align-items: center;
+}
+
+i{
+  color:var(--grigio);
+  padding: 0 10px;
+  font-size: 1.4em;
+  
+}
+ .info{
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+ }
+ .info div:first-child{
+  margin-left: 10px;
+ }
+ .chat-options div i{
+  color: var(--grigio);
+ }
+ .name{
+  font-weight: 700;
+  font-size: 1.1em;
+
+ }
+ .access{
+  font-size: .9em;
+  color: rgb(112,120,123);
+ }
+
+
+
 
 
 @media screen and (max-width: 992px){
   
   .container{
-    width: 100%;
+
+    
   }
  
   .container .col-chat{
     width: 15%;
     
   }
-  .col-convs{
+   .container .col-convs{
     width:85%;
 
   }
