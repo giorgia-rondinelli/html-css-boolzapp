@@ -227,6 +227,28 @@ right: 0;
 
 
 }
+.chev:hover .hidden-menu{
+  display: block;
+
+}
+.hidden-menu{
+  background-color: white; 
+  text-align: center;
+  width:150px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 1em;
+  position: absolute;
+  right: 3px;
+  top: 25px;
+  display: none;
+
+}
+.hidden-menu div{
+  padding: 7px;
+}
+
+
 
 .text{
   height:75px ;
@@ -297,6 +319,8 @@ border: none;
     display: none;
   }
 }
+
+
   
 
   
