@@ -321,6 +321,33 @@ border: none;
 }
 
 
+
+
+.open-chat.dark{
+background-image: url(/img/fondodark.jpg);
+}
+.sent.dark{
+  background-color: #009688;
+  color: white;
+}
+.michele.dark,.main-user.dark,.received.dark{
+  background-color: rgb(34,44,53);
+  color: white;
+}
+
+.users.dark{
+  background-color:rgb(17,30,38) ;
+  color: white;
+}
+
+.search.dark , .bg-search.dark, input.dark ,.text.dark, .write.dark{
+  background-color: rgb(33,46,54);
+  
+}
+i.dark{
+color: rgb(27,163,135);
+}
+
   
 
   
